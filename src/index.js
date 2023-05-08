@@ -1,17 +1,4 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import { KeyboardShortcut } from "./KeyboardShortcut.jsx";
+import { ShortcutContext, ShortcutContextProvider } from "./ShortcutContext.js";
 
-import App from "./App";
-import ShortcutContextProvider from "./context/ShortcutContext";
-import KeyboardShortcut from "./KeyboadShortcut";
-
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
-
-export { KeyboardShortcut, ShortcutContextProvider };
+export { KeyboardShortcut, ShortcutContext, ShortcutContextProvider };
