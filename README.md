@@ -26,6 +26,8 @@ To use this package, install it using npm:
 npm install react-keypress-shortcuts
 ```
 
+[react-keypress-shortcuts](https://www.npmjs.com/package/react-keypress-shortcuts)
+
 ## Use
 
 - Import `ShortcutContextProvider` from `react-keypress` and wrap around you `App` component
